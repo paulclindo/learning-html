@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Intro CSS</title>
+  <style>
+    /* TAG => h1,h2,img,a,h6 */
+    /* CLASS  => . */
+    /* ID => # */
+    body {
+      font-family: monospace;
+      font-size: 16px;
+      color: white;
+      background: linear-gradient(to right, #eecda3, #ef629f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    }
+    .title {
+      text-align: center;
+      color: black;
+      font-size: 60px;
+    }
+    .subtitle{
+      color: royalblue;
+      text-transform: uppercase;
+      font-family: Arial;
+      font-size: 40px;
+      margin-top: 20px;
+      margin-bottom:20px;
+    }
+    .post-blog{
+      width: 400px;
+      padding: 20px 30px;
+      border: 10px solid royalblue;
+      margin: 20px;
+    }
+    .latest-post {
+      background-color: black;
+    }
+    .container {
+      display:flex;
+      flex-wrap: wrap;
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <h1 class="title">Bienvenidos a mi blog</h1>
+    <div class="container">
+      <div class="post-blog latest-post">
+        <h3 class="subtitle">Nuevo Post</h3>
+        <p>CSS significa Cascade Style Sheet Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque quasi laboriosam placeat ad illum, saepe porro consequuntur vel recusandae! Veritatis odio dolor blanditiis ab animi itaque numquam eos illum eligendi?</p>
+      </div>
+      <div class="post-blog">
+        <h3 class="subtitle ">Introduccion a HTML</h3>
+        <p>HTML significa Hyper Text Markup Language Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim impedit, quidem voluptatem iure totam facere aspernatur quaerat fugit aliquid dolorem obcaecati ratione voluptatum ea, voluptas doloremque. Velit cupiditate architecto deleniti?</p>
+      </div>
+      <div class="post-blog">
+        <h3 class="subtitle">Introduccion a CSS</h3>
+        <p>CSS significa Cascade Style Sheet Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque quasi laboriosam placeat ad illum, saepe porro consequuntur vel recusandae! Veritatis odio dolor blanditiis ab animi itaque numquam eos illum eligendi?</p>
+      </div>
+      <div class="post-blog">
+        <h3 class="subtitle">Introduccion a JS</h3>
+        <p>JS significa JavaScript Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque quasi laboriosam placeat ad illum, saepe porro consequuntur vel recusandae! Veritatis odio dolor blanditiis ab animi itaque numquam eos illum eligendi?</p>
+      </div>
+      <div class="post-blog">
+        <h3 class="subtitle">Introduction a Programacion</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque quasi laboriosam placeat ad illum, saepe porro consequuntur vel recusandae! Veritatis odio dolor blanditiis ab animi itaque numquam eos illum eligendi?</p>
+      </div>
+    </div>
+
+  </div>
+  <div>
+    <p>
+      Suscribete a mi canal de Youtube <span id="youtube-channel"> @Developers</span>
+    </p>
+
+  </div>
+  <p>
+    Copyright 2020
+  </p>
+</body>
+</html>
+
+<!-- // div => parent
+// h1 => children -->
